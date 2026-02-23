@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jakarta Run 2026</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- header -->
+<header class="floating-header">
+    <div class="header-container">
+        <div class="logo">JAKARTA RUN</div>
+        
+        <nav class="nav-menu" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#challenge">Challenge</a>
+            <a href="#routes">Route Map</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+
+        <a href="#register" class="btn-register">Register Now →</a>
+    </div>
+</header>
+
+<!-- hero -->
+<section class="hero" id="home">
+    <img
+        src="https://i.pinimg.com/1200x/36/93/fa/3693fabd8247c2f21c0995bc4d68215b.jpg"
+        alt="Jakarta Run Hero Image"
+        class="hero-img"
+    />
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+        <p class="presented">Presented by</p>
+        <h2 class="event-title">JAKARTA RUN 2026</h2>
+
+        <div class="countdown-glass" aria-label="Countdown timer">
+            <div class="time">
+                <span id="days">00</span>
+                <small>Days</small>
+            </div>
+            <div class="separator">:</div>
+            <div class="time">
+                <span id="hours">00</span>
+                <small>Hours</small>
+            </div>
+            <div class="separator">:</div>
+            <div class="time">
+                <span id="minutes">00</span>
+                <small>Minutes</small>
+            </div>
+            <div class="separator">:</div>
+            <div class="time">
+                <span id="seconds">00</span>
+                <small>Seconds</small>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- challenge -->
+<section class="challenge-section" id="challenge">
+    <div class="challenge-overlay"></div>
+
+    <div class="challenge-container">
+        <div class="challenge-left">
+            <h2>Find Your Race!</h2>
+
+            <p class="subtitle">
+                No matter your level, every journey starts with a single step forward.
+            </p>
+
+            <div class="race-categories">
+                <div class="race-card">
+                    <h3>5K</h3>
+                    <p class="race-type">Fun Run</p>
+                    <p class="race-time">Start: 06:30 AM</p>
+                    <p class="race-price">Rp150.000</p>
+                    <a href="#register" class="race-btn">Register</a>
+                </div>
+
+                <div class="race-card">
+                    <h3>10K</h3>
+                    <p class="race-type">City Run</p>
+                    <p class="race-time">Start: 06:15 AM</p>
+                    <p class="race-price">Rp250.000</p>
+                    <a href="#register" class="race-btn">Register</a>
+                </div>
+
+                <div class="race-card">
+                    <h3>21K</h3>
+                    <p class="race-type">Half Marathon</p>
+                    <p class="race-time">Start: 06:00 AM</p>
+                    <p class="race-price">Rp350.000</p>
+                    <a href="#register" class="race-btn">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- routes -->
+<section class="routes-section" id="routes">
+    <div class="routes-container">
+        <h2 class="routes-title">Race Routes</h2>
+        <p class="routes-subtitle">Explore the official courses for each category</p>
+
+        <div class="routes-wrapper">
+            <div class="route-card">
+                <div class="route-video">
+                    <video autoplay muted loop playsinline>
+                        <source src="5k_route.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="route-info">
+                    <h3>5K Fun Run</h3>
+                    <p>Short and enjoyable route, perfect for beginners and families.</p>
+                </div>
+            </div>
+
+            <div class="route-card">
+                <div class="route-video">
+                    <video autoplay muted loop playsinline>
+                        <source src="10k_route.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="route-info">
+                    <h3>10K City Run</h3>
+                    <p>Experience Jakarta’s main roads with a moderate endurance challenge.</p>
+                </div>
+            </div>
+
+            <div class="route-card">
+                <div class="route-video">
+                    <video autoplay muted loop playsinline>
+                        <source src="21k_route.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="route-info">
+                    <h3>21K Half Marathon</h3>
+                    <p>A full city experience designed for serious runners.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- gallery-->
+<section class="gallery-section" id="gallery">
+    <h2 class="gallery-title">
+        Own the Moment. <br> Run with Passion.
+    </h2>
+
+    <div class="gallery-wrapper">
+        <div class="gallery-track">
+            <img src="lari2.png" alt="Gallery Image 1" />
+            <img src="lari3.jpeg" alt="Gallery Image 2" />
+            <img src="lari4.jpeg" alt="Gallery Image 3" />
+            <img src="lari5.jpeg" alt="Gallery Image 4" />
+            <img src="lari6.jpeg" alt="Gallery Image 5" />
+            <img src="lari7.jpeg" alt="Gallery Image 6" />
+            <img src="lari8.jpg" alt="Gallery Image 7" />
+        </div>
+    </div>
+</section>
+
+<!-- register -->
+<section class="register-section" id="register">
+    <div class="register-container">
+        <div class="register-info">
+            <h2>Ready to Run?</h2>
+            <p>
+                Register now and claim your place on the starting line.
+            </p>
+        </div>
+
+        <div class="register-form-card">
+            <h3>Your Information</h3>
+
+            <form>
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input id="fullname" type="text" placeholder="Input your full name" />
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input id="email" type="email" placeholder="Input your email" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" type="text" placeholder="Input your phone number" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <select id="category">
+                        <option>Choose a category</option>
+                        <option>5K</option>
+                        <option>10K</option>
+                        <option>21K (Half Marathon)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="size">T-Shirt Size</label>
+                    <select id="size">
+                        <option>Choose your T-shirt size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="submit-btn">Register Now</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="footer">
+    <div class="footer-top">
+        <h2>
+            Chase the Energy. <br> Conquer the Distance.
+        </h2>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+        <div class="footer-logo">JAKARTA RUN</div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="#home">Home</a>
+            <a href="#challenge">Challenge</a>
+            <a href="#routes">Route Map</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+
+        <div class="footer-social" aria-label="Social links">
+            <a href="#"><span>F</span></a>
+            <a href="#"><span>IG</span></a>
+            <a href="#"><span>X</span></a>
+        </div>
+    </div>
+</footer>
+
+<!-- after di klik regist -->
+<div id="successModal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-label="Registration success">
+        <h3>Registration Successful!!</h3>
+        <p>Thank you for registering!</p>
+        <button type="button" onclick="closeModal()">Close</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
